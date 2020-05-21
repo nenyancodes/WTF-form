@@ -17,5 +17,168 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="main">
+      <h1 class="heading">Yoga retreat sign-up form</h1>
+      <form class="form">
+        <p class="form__wrapper">
+          <label for="firstName" class="form__label"
+            >First name
+            <input
+              id="firstName"
+              name="name"
+              placeholder="Enter your name"
+              value="Ania"
+              type="text"
+              class="form__input"
+            />
+          </label>
+        </p>
+
+        <p class="form__wrapper">
+          <label for="surname" class="form__label"
+            >Surname
+            <input
+              id="surname"
+              name="surname"
+              placeholder="Enter your surname"
+              value="Wojtowicz"
+              type="text"
+            />
+          </label>
+        </p>
+
+        <p>
+          <label for="email" class="form__label"
+            >E-mail
+            <input
+              id="email"
+              name="email"
+              placeholder="Enter your e-mail adress"
+              type="email"
+            />
+          </label>
+        </p>
+
+        <p>
+          <label for="password" class="form__label"
+            >Password
+            <input
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              type="password"
+            />
+          </label>
+        </p>
+
+        <fieldset class="form__fieldset">
+          <legend class="fieldset__legend">Adress</legend>
+          <p class="fieldset__wrapper">
+            <label for="cityName"
+              >City name
+              <input
+                id="cityName"
+                name="cityName"
+                placeholder="Enter your city name..."
+                type="text"
+              />
+            </label>
+          </p>
+          <p>
+            <label for="postalCode"
+              >Postal Code
+              <input
+                id="postalCode"
+                name="postalCode"
+                placeholder="Enter your postal code..."
+                type="text"
+              />
+            </label>
+          </p>
+          <p>
+            <label for="streetName"
+              >Street name
+              <input
+                id="streetName"
+                name="street"
+                placeholder="Enter your street name"
+                type="text"
+              />
+            </label>
+          </p>
+        </fieldset>
+
+        <fieldset class="form__fieldset"></fieldset>>
+          <legend class="fieldset__legend">What's your yoga level?</legend>
+          <p>
+            <label 
+              ><input name="newbie" value="newbie" type="radio" /> Newbie</label
+            >
+          </p>
+          <p>
+            <label
+              ><input
+                name="intermediate"
+                value="intermediate"
+                type="radio"
+              />Intermediate</label
+            >
+          </p>
+          <p>
+            <label
+              ><input name="ninja" value="ninja" type="radio" />Ninja</label
+            >
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Yoga classes you're interested in</legend>
+          <p>
+            <label
+              ><input name="hiking" value="hiking" type="checkbox" /> Hatha
+              Yoga</label
+            >
+          </p>
+          <p>
+            <label
+              ><input name="eating" value="eating" type="checkbox" />Vinyasa
+              Yoga</label
+            >
+          </p>
+          <p>
+            <label
+              ><input
+                name="sight-seeing"
+                value="sight-seeing"
+                type="checkbox"
+              />
+              Ashtanga Yoga</label
+            >
+          </p>
+          <p>
+            <label
+              ><input
+                name="sight-seeing"
+                value="sight-seeing"
+                type="checkbox"
+              />
+              Iyengar Yoga</label
+            >
+          </p>
+          <p>
+            <label
+              ><input
+                name="sight-seeing"
+                value="sight-seeing"
+                type="checkbox"
+              />
+              Power Yoga</label
+            >
+          </p>
+        </fieldset>
+        <input type="submit" value="send" />
+      </form>
+    </main>
+  </body>
 </html>
