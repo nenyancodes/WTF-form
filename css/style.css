@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background-image: url("/yoga.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  height: 100vh;
+  width: 700px;
+  background-color: #fae5dc;
+}
