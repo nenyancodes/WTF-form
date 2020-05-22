@@ -20,8 +20,12 @@ body {
 }
 
 .main {
-  height: 100vh;
-  width: 700px;
+  height: 80vh;
+  width: 900px;
+  margin: 16px;
+  padding: 32px;
+  border-radius: 32px;
+  box-shadow: 12px 12px 32px #d6d2cdb9, -9px -9px 24px rgba(255, 255, 255, 0.8);
 }
 
 .heading {
