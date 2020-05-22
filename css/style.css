@@ -18,10 +18,12 @@ body {
 }
 
 .heading {
+  margin: 0 0 24px 0;
   font-size: 124px;
-  font-weight: bold;
+  font-weight: 900;
+  text-align: left;
   color: #f2f1f1;
-  text-shadow: 1px 3px 6px #c4c1bf, -3px -3px 4px #fff;
+  text-shadow: 1px 3px 6px #d4d2d0, -1px -2px 3px #fff;
 }
 
 body,
