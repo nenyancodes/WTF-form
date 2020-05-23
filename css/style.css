@@ -46,12 +46,13 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 64px;
+  padding: 56px;
 }
 
 .form__wrapper {
   display: flex;
   justify-content: space-between;
+  align-content: flex-start;
   flex-wrap: wrap;
   width: 47%;
 }
@@ -72,7 +73,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 12px 18px 24px 18px;
+  padding: 12px 18px 32px 18px;
   margin-top: 42px;
   border-radius: 20px;
   box-shadow: 6px 6px 10px #d6d2cdb9, -6px -6px 10px rgba(255, 255, 255, 0.8);
@@ -277,4 +278,3 @@ body {
 .submit:active {
   box-shadow: inset 1px 1px 2px #cfcdca, inset -1px -1px 2px #fff;
 }
-
