@@ -80,7 +80,7 @@ body {
 }
 
 .input {
-  flex-basis: 48%;
+  flex-basis: 47%;
   margin-bottom: 0;
 }
 
@@ -93,6 +93,7 @@ body {
 .textarea__label,
 .fieldset__legend {
   padding-left: 0.2em;
+  margin-bottom: 0;
   font-size: 16px;
   font-weight: 600;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.699);
@@ -105,11 +106,11 @@ body {
   -webkit-appearance: none;
   width: 100%;
   border: 0;
-  border-radius: 28px;
+  border-radius: 26px;
   outline: 0;
-  padding: 14px;
+  padding: 13px;
   margin-top: 6px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   box-shadow: inset 2px 2px 5px #c5c1bc, inset -5px -5px 10px #fff;
   text-shadow: 1px 1px 0 #fff;
   font-size: 14px;
@@ -120,6 +121,10 @@ body {
 .input__content:focus,
 .textarea__content:focus {
   box-shadow: inset 1px 1px 2px #d6d2cd, inset -1px -1px 2px #fff;
+}
+
+.textarea {
+  margin-top: 35px;
 }
 
 .textarea__content {
@@ -175,7 +180,7 @@ body {
     inset -3px -3px 6px rgba(255, 255, 255, 0.2);
 }
 
-button {
+/* button {
   font-size: 16px;
   border-radius: 24px;
   padding: 12px;
@@ -201,7 +206,7 @@ button:hover {
 
 button:active {
   box-shadow: inset 1px 1px 2px $color-shadow, inset -1px -1px 2px $color-white;
-}
+} */
 
 /*
 
