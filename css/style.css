@@ -133,6 +133,10 @@ body {
 
 /* RADIO */
 
+.radio {
+  margin: 12px 0 4px 0;
+}
+
 .radio__label {
   margin-right: 10px;
   font-size: 15px;
