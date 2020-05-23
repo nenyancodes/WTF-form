@@ -31,10 +31,10 @@ body {
 
 .heading {
   position: absolute;
-  top: 70px;
-  left: -260px;
+  top: 200px;
+  left: -360px;
   margin: 0 0 24px 0;
-  font-size: 136px;
+  font-size: 124px;
   font-weight: 900;
   letter-spacing: 0.2px;
   text-align: left;
