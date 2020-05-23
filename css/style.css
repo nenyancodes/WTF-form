@@ -20,7 +20,7 @@ body {
 
 .main {
   position: relative;
-  height: 80vh;
+  height: 85vh;
   width: 900px;
   margin: 16px;
   padding: 32px;
@@ -45,49 +45,70 @@ body {
 .form {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   width: 100%;
 }
 
 .form__wrapper {
-  flex-basis: 49%;
-  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 46%;
+  padding-left: 24px;
 }
 
-.form__wrapper--full {
+.form__fieldset {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 24px 0 12px 0;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  border-radius: 20px;
+  outline: 0;
+  padding: 24px 12px;
+  box-shadow: 6px 6px 10px #d6d2cdb9, -6px -6px 10px rgba(255, 255, 255, 0.8);
+}
+
+.input {
+  flex-basis: 48%;
+  margin-bottom: 0;
+}
+
+.input--full {
   flex-basis: 100%;
 }
 
-.form__label {
-  font-size: 24px;
-  line-height: 36px;
+.input__label {
+  font-size: 18px;
+  line-height: 22px;
   font-weight: bold;
-  background-color: #b4aeae;
+  background-color: #8a8282;
   color: transparent;
-  text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.7);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
 }
 
-.form__input {
+.input__content {
   appearance: none;
   -webkit-appearance: none;
   width: 100%;
   border: 0;
-  border-radius: 24px;
+  border-radius: 20px;
   outline: 0;
   padding: 12px;
-  margin-right: 32px;
   margin-top: 4px;
   box-shadow: inset 2px 2px 5px #d6d2cd, inset -5px -5px 10px #fff;
   text-shadow: 1px 1px 0 #fff;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #f2f1f1;
   transition: all 0.2s ease-in-out;
 }
 
-input:focus {
+.input__content:focus {
   box-shadow: inset 1px 1px 2px #d6d2cd, inset -1px -1px 2px #fff;
 }
 
