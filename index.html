@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -21,44 +21,60 @@
     <main class="main">
       <h1 class="heading">form</h1>
       <form class="form">
-        <p class="form__wrapper">
-          <label for="firstName" class="form__label"
-            >First name
-            <input
-              id="firstName"
-              name="name"
-              placeholder="Enter your name"
-              value="Ania"
-              type="text"
-              class="form__input"
-            />
-          </label>
-        </p>
+        <div class="form__wrapper">
+          <p class="input">
+            <label for="firstName" class="input__label"
+              >First name
+              <input
+                id="firstName"
+                name="name"
+                placeholder="Enter your name"
+                value="Ania"
+                type="text"
+                class="input__content"
+              />
+            </label>
+          </p>
 
-        <p class="form__wrapper">
-          <label for="surname" class="form__label"
-            >Surname
-            <input
-              id="surname"
-              name="surname"
-              placeholder="Enter your surname"
-              value="Wojtowicz"
-              type="text"
-            />
-          </label>
-        </p>
+          <p class="input">
+            <label for="surname" class="input__label"
+              >Surname
+              <input
+                id="surname"
+                name="surname"
+                placeholder="Enter your surname"
+                value="Wojtowicz"
+                type="text"
+                class="input__content"
+              />
+            </label>
+          </p>
 
-        <p>
-          <label for="email" class="form__label"
-            >E-mail
-            <input
-              id="email"
-              name="email"
-              placeholder="Enter your e-mail adress"
-              type="email"
-            />
-          </label>
-        </p>
+          <p class="input input--full">
+            <label for="phoneNumber" class="input__label"
+              >E-mail
+              <input
+                id="phoneNumber"
+                name="phone"
+                placeholder="Enter your phone number..."
+                type="tel"
+                class="input__content"
+              />
+            </label>
+          </p>
+
+          <p class="input input--full">
+            <label for="email" class="input__label"
+              >E-mail
+              <input
+                id="email"
+                name="email"
+                placeholder="Enter your e-mail adress"
+                type="email"
+                class="input__content"
+              />
+            </label>
+          </p>
 
         <p>
           <label for="password" class="form__label"
@@ -108,11 +124,14 @@
             </label>
           </p>
         </fieldset>
+        </div>
+        <!-- 
+        
 
-        <fieldset class="form__fieldset"></fieldset>>
+        <fieldset class="form__fieldset">
           <legend class="fieldset__legend">What's your yoga level?</legend>
           <p>
-            <label 
+            <label
               ><input name="newbie" value="newbie" type="radio" /> Newbie</label
             >
           </p>
@@ -176,8 +195,7 @@
               Power Yoga</label
             >
           </p>
-        </fieldset>
-        <input type="submit" value="send" />
+        </fieldset> -->
       </form>
     </main>
   </body>
