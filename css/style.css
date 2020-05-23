@@ -47,14 +47,14 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 32px 64px;
 }
 
 .form__wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 46%;
-  padding-left: 24px;
+  width: 47%;
 }
 
 .form__fieldset {
