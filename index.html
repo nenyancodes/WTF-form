@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wizytówka</title>
+    <title>Contact Form</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
@@ -76,7 +76,7 @@
 
           <p class="input input--full">
             <label for="phoneNumber" class="input__label"
-              >E-mail
+              >Phone number
               <input
                 id="phoneNumber"
                 name="phone"
@@ -111,8 +111,10 @@
               ></textarea>
             </label>
           </p>
+        </div>
 
-          <fieldset class="form__fieldset">
+        <div class="form__wrapper">
+          <fieldset class="form__fieldset form__fieldset--address">
             <legend class="fieldset__legend">Adress</legend>
             <p class="input input--full">
               <label for="adress" class="input__label"
@@ -176,31 +178,18 @@
             </p>
           </fieldset>
         </div>
+        <!-- <button>
+            <input
+              type="submit"
+              value="send"
+              class="form__input form__input--submit"
+            />
+          </button> -->
+
         <!-- 
         
 
-        <fieldset class="form__fieldset">
-          <legend class="fieldset__legend">What's your yoga level?</legend>
-          <p>
-            <label
-              ><input name="newbie" value="newbie" type="radio" /> Newbie</label
-            >
-          </p>
-          <p>
-            <label
-              ><input
-                name="intermediate"
-                value="intermediate"
-                type="radio"
-              />Intermediate</label
-            >
-          </p>
-          <p>
-            <label
-              ><input name="ninja" value="ninja" type="radio" />Ninja</label
-            >
-          </p>
-        </fieldset>
+        
 
         <fieldset>
           <legend>Yoga classes you're interested in</legend>
@@ -247,13 +236,6 @@
             >
           </p>
         </fieldset> -->
-        <button>
-          <input
-            type="submit"
-            value="send"
-            class="form__input form__input--submit"
-          />
-        </button>
       </form>
     </main>
   </body>
