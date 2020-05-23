@@ -23,7 +23,8 @@ body {
   width: 900px;
   margin: 16px;
   border-radius: 32px;
-  box-shadow: 12px 12px 32px #d6d2cdb9, -6px -6px 24px rgb(255, 255, 255);
+  box-shadow: 12px 12px 32px #d6d2cdb9,
+    -10px -10px 10px rgba(255, 255, 255, 0.911);
   /* box-shadow: 6px 6px 10px #d6d2cdb9, -6px -6px 10px rgba(255, 255, 255, 0.8); */
   /* box-shadow: 10px 3px 6px #d4d2d0, -3px -2px 4px #fff; */
 }
@@ -59,7 +60,6 @@ body {
 
 .form__fieldset {
   display: flex;
-
   width: 100%;
   padding: 0px;
   margin: 0px;
@@ -95,7 +95,8 @@ body {
   padding-left: 0.2em;
   font-size: 14px;
   font-weight: 500;
-  color: #485d83;
+  text-shadow: 1px 1px 0 #fff;
+  color: #666;
 }
 
 .input__content,
@@ -104,12 +105,12 @@ body {
   -webkit-appearance: none;
   width: 100%;
   border: 0;
-  border-radius: 20px;
+  border-radius: 28px;
   outline: 0;
-  padding: 12px;
-  margin-top: 6px;
+  padding: 14px;
+  margin-top: 5px;
   margin-bottom: 6px;
-  box-shadow: inset 2px 2px 5px #d6d2cd, inset -5px -5px 10px #fff;
+  box-shadow: inset 2px 2px 5px #c5c1bc, inset -5px -5px 10px #fff;
   text-shadow: 1px 1px 0 #fff;
   font-size: 14px;
   font-family: "Dosis", Helvetica, Verdana, sans-serif;
@@ -117,7 +118,8 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.input__content:focus {
+.input__content:focus,
+.textarea__content:focus {
   box-shadow: inset 1px 1px 2px #d6d2cd, inset -1px -1px 2px #fff;
 }
 
