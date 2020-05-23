@@ -76,11 +76,13 @@ body {
   margin-bottom: 0;
 }
 
-.input--full {
+.input--full,
+.textarea {
   flex-basis: 100%;
 }
 
-.input__label {
+.input__label,
+.textarea__label {
   font-size: 18px;
   line-height: 22px;
   font-weight: bold;
@@ -92,7 +94,8 @@ body {
   background-clip: text;
 }
 
-.input__content {
+.input__content,
+.textarea__content {
   appearance: none;
   -webkit-appearance: none;
   width: 100%;
@@ -100,7 +103,7 @@ body {
   border-radius: 20px;
   outline: 0;
   padding: 12px;
-  margin-top: 4px;
+  margin-top: 6px;
   box-shadow: inset 2px 2px 5px #d6d2cd, inset -5px -5px 10px #fff;
   text-shadow: 1px 1px 0 #fff;
   font-size: 14px;
