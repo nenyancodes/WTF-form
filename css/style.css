@@ -68,18 +68,18 @@ body {
 }
 
 .form__fieldset--address {
-  height: 50%;
+  position: relative;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 24px;
-  margin-bottom: 12px;
+  padding: 12px 18px 24px 18px;
+  margin-top: 42px;
   border-radius: 20px;
   box-shadow: 6px 6px 10px #d6d2cdb9, -6px -6px 10px rgba(255, 255, 255, 0.8);
 }
 
 .input {
-  flex-basis: 47%;
+  flex-basis: 48%;
   margin-bottom: 0;
 }
 
@@ -97,6 +97,10 @@ body {
   font-weight: 600;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.699);
   color: #888;
+}
+
+.fieldset__legend--address {
+  display: none;
 }
 
 .input__content,
