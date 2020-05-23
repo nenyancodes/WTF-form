@@ -23,9 +23,10 @@ body {
   height: 85vh;
   width: 900px;
   margin: 16px;
-  padding: 32px;
   border-radius: 32px;
-  box-shadow: 12px 12px 32px #d6d2cdb9, -9px -9px 24px rgba(255, 255, 255, 0.8);
+  box-shadow: 12px 12px 32px #d6d2cdb9, -6px -6px 24px rgb(255, 255, 255);
+  /* box-shadow: 6px 6px 10px #d6d2cdb9, -6px -6px 10px rgba(255, 255, 255, 0.8); */
+  /* box-shadow: 10px 3px 6px #d4d2d0, -3px -2px 4px #fff; */
 }
 
 .heading {
