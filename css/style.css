@@ -124,10 +124,11 @@ body {
 }
 
 .textarea {
-  margin-top: 35px;
+  margin-top: 0;
 }
 
 .textarea__content {
+  margin-top: 10px;
   resize: none;
 }
 
