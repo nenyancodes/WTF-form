@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,34 +27,34 @@
       <form class="form">
         <div class="form__wrapper">
           <fieldset class="form__fieldset">
-            <legend class="fieldset__legend">Title</legend>
+            <legend class="fieldset__legend">Tytuł</legend>
 
             <p class="radio">
               <label class="radio__label"
                 ><input
-                  name="newbie"
-                  value="newbie"
+                  name="mrs"
+                  value="Pani"
                   type="radio"
                   class="radio__content"
                   checked
                 />
-                Mrs.</label
+                Pani</label
               >
             </p>
             <p class="radio">
               <label class="radio__label"
                 ><input
-                  name="intermediate"
-                  value="intermediate"
+                  name="mr"
+                  value="Pan"
                   type="radio"
                   class="radio__content"
-                />Mr.</label
+                />Pan</label
               >
             </p>
           </fieldset>
           <p class="input">
             <label for="firstName" class="input__label"
-              >First name
+              >Imię
               <input
                 id="firstName"
                 name="name"
@@ -66,7 +66,7 @@
 
           <p class="input">
             <label for="surname" class="input__label"
-              >Surname
+              >Nazwisko
               <input
                 id="surname"
                 name="surname"
@@ -75,22 +75,9 @@
               />
             </label>
           </p>
-
-          <p class="input input--full">
-            <label for="phoneNumber" class="input__label"
-              >Phone number
-              <input
-                id="phoneNumber"
-                name="phone"
-                type="tel"
-                class="input__content"
-              />
-            </label>
-          </p>
-
           <p class="input input--full">
             <label for="email" class="input__label"
-              >E-mail
+              >Adres e-mail
               <input
                 id="email"
                 name="email"
@@ -99,15 +86,26 @@
               />
             </label>
           </p>
+          <p class="input input--full">
+            <label for="phoneNumber" class="input__label"
+              >Numer telefonu
+              <input
+                id="phoneNumber"
+                name="phone"
+                type="tel"
+                class="input__content"
+              />
+            </label>
+          </p>
           <p class="textarea">
-            <label for="specialRequests" class="textarea__label"
+            <label for="message" class="textarea__label"
               >Special requests
               <textarea
-                name="specialRequests"
-                id="specialRequests"
+                name="message"
+                id="message"
                 class="textarea__content"
                 rows="11"
-                placeholder="Please do not hestitate to contact us if you require any further information or assistance..."
+                placeholder="Napisz wiadomość..."
               ></textarea>
             </label>
           </p>
@@ -115,10 +113,10 @@
 
         <div class="form__wrapper">
           <fieldset class="form__fieldset form__fieldset--address">
-            <legend class="fieldset__legend">Adress</legend>
+            <legend class="fieldset__legend">Adres</legend>
             <p class="input input--full">
               <label for="adress" class="input__label"
-                >Street name and flat number
+                >Ulica i numer mieszkania
                 <input
                   id="adress"
                   name="adress"
@@ -129,7 +127,7 @@
             </p>
             <p class="input">
               <label for="cityName" class="input__label"
-                >City
+                >Miejscowość
                 <input
                   id="cityName"
                   name="cityName"
@@ -140,7 +138,7 @@
             </p>
             <p class="input">
               <label for="postalCode" class="input__label"
-                >Postal Code
+                >Kod pocztowy
                 <input
                   id="postalCode"
                   name="postalCode"
