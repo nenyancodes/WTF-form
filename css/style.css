@@ -26,6 +26,7 @@ body {
   box-shadow: 12px 12px 32px #babecc,
     -10px -10px 14px rgba(255, 255, 255, 0.911);
   background-color: #ebecf0;
+  background: linear-gradient(135deg, #ebecf0, rgb(225, 227, 235));
   -webkit-animation: main-shadow 1.6s;
   animation: main-shadow 1.6s;
 }
@@ -154,6 +155,7 @@ body {
 }
 
 .textarea__content {
+  background-color: transparent;
   margin-top: 14px;
   resize: none;
 }
