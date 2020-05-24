@@ -353,13 +353,13 @@ body {
 
   .main {
     width: 900px;
-    margin: 16px;
-    margin-top: 150px;
+    margin: 32px;
+    margin-top: 200px;
   }
 
   .heading {
     position: absolute;
-    top: -170px;
+    top: -160px;
     left: 0px;
     margin: 16px 0 0 0;
     font-size: 116px;
@@ -368,7 +368,7 @@ body {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   body {
     align-items: flex-start;
   }
@@ -407,7 +407,7 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .main {
     margin: 16px;
   }
