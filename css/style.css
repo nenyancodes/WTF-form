@@ -53,7 +53,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 56px;
+  padding: 42px 56px;
   -webkit-animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation-delay: 1s;
