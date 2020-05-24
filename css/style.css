@@ -13,7 +13,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f2f1f1;
+  background-color: #ebecf0;
+  background: linear-gradient(135deg, #ebecf0, rgb(225, 227, 235));
   font-family: "Dosis", Helvetica, Verdana, sans-serif;
 }
 
@@ -22,9 +23,9 @@ body {
   width: 950px;
   margin: 32px;
   border-radius: 32px;
-  box-shadow: 12px 12px 32px #d6d2cdb9,
-    -10px -10px 10px rgba(255, 255, 255, 0.911);
-  background-color: #f2f1f1;
+  box-shadow: 12px 12px 32px #babecc,
+    -10px -10px 14px rgba(255, 255, 255, 0.911);
+  background-color: #ebecf0;
   -webkit-animation: main-shadow 1.6s;
   animation: main-shadow 1.6s;
 }
@@ -40,8 +41,8 @@ body {
   font-weight: 900;
   letter-spacing: 0.2px;
   text-align: left;
-  color: #f2f1f1;
-  text-shadow: -3px 10px 6px #d4d2d0, 1px -2px 3px #fff;
+  color: #ebecf0;
+  text-shadow: -3px 10px 6px #babecc, 1px -2px 3px #fff;
   transform: rotate(-90deg);
   -webkit-animation: heading-shadow 1.6s;
   animation: heading-shadow 1.6s;
@@ -92,7 +93,7 @@ body {
   padding: 12px 18px 32px 18px;
   margin-top: 42px;
   border-radius: 20px;
-  box-shadow: 6px 6px 10px #d6d2cdb9, -6px -6px 10px rgba(255, 255, 255, 0.8);
+  box-shadow: 6px 6px 10px #babecc, -6px -6px 10px rgba(255, 255, 255, 0.8);
 }
 
 /* VARIOUS INPUTS & TEXTAREA */
@@ -118,16 +119,16 @@ body {
   padding: 14px;
   margin-top: 6px;
   margin-bottom: 0px;
-  box-shadow: inset 2px 2px 5px #cfcdca, inset -5px -5px 10px #fff;
-  text-shadow: 1px 1px 0 #fff;
-  font-size: 14px;
-  background-color: #f2f1f1;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  font-size: 15px;
+  color: rgb(90, 97, 119);
+  background-color: #ebecf0;
   transition: all 0.2s ease-in-out;
 }
 
 .input__content:focus,
 .textarea__content:focus {
-  box-shadow: inset 1px 1px 2px #d6d2cd, inset -1px -1px 2px #fff;
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 
 /* labels */
@@ -139,8 +140,8 @@ body {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 600;
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.699);
-  color: #888;
+  /* text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.699); */
+  color: rgb(90, 97, 119);
 }
 
 .fieldset__legend--address {
@@ -166,7 +167,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   font-weight: 500;
-  color: #666;
+  color: rgb(90, 97, 119);
 }
 
 .radio__content,
@@ -177,7 +178,7 @@ body {
   width: 20px;
   height: 20px;
   margin: 0 5px;
-  background-color: #f2f1f1;
+  background-color: #ebecf0;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2),
     -3px -3px 6px rgba(255, 255, 255, 1), inset 0 0 0 rgba(0, 0, 0, 0.2),
     inset 0 0 0 rgba(255, 255, 255, 0.2);
@@ -223,7 +224,7 @@ body {
   font-size: 8px;
   line-height: 8px;
   font-weight: bold;
-  color: #f2f1f1;
+  color: #ebecf0;
 }
 
 /* checkbox */
@@ -254,7 +255,7 @@ body {
   font-size: 12px;
   line-height: 12px;
   font-weight: bold;
-  color: #f2f1f1;
+  color: #ebecf0;
 }
 
 /* SUBMIT */
@@ -277,8 +278,9 @@ body {
   position: relative;
   padding: 12px;
   margin-top: 32px;
-  background-color: #f2f1f1;
-  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #bbb9b6;
+  background-color: #ebecf0;
+  background: linear-gradient(155deg, #ebecf0, rgb(231, 233, 243));
+  box-shadow: -5px -5px 20px #fff, 5px 5px 16px #babecc;
 }
 
 .submit__input {
@@ -299,11 +301,11 @@ body {
 }
 
 .submit:hover {
-  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #cfcdca;
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
 }
 
 .submit:active {
-  box-shadow: inset 1px 1px 2px #cfcdca, inset -1px -1px 2px #fff;
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 
 @-webkit-keyframes fade-in {
@@ -334,107 +336,105 @@ body {
 @keyframes heading-shadow {
   0% {
     display: none;
-    -webkit-text-shadow: 0 0 0 #d4d2d0, 0 0 0 #fff;
-    text-shadow: 0 0 0 #d4d2d0, 0 0 0 #fff;
+    -webkit-text-shadow: 0 0 0 #babecc, 0 0 0 #fff;
+    text-shadow: 0 0 0 #babecc, 0 0 0 #fff;
   }
   10% {
     display: visible;
-    -webkit-text-shadow: -1px 1px 1px #d4d2d0, 0 -1px 1px #fff;
-    text-shadow: -1px 1px 1px #d4d2d0, 0 -1px 1px #fff;
+    -webkit-text-shadow: -1px 1px 1px #babecc, 0 -1px 1px #fff;
+    text-shadow: -1px 1px 1px #babecc, 0 -1px 1px #fff;
   }
   30% {
     display: visible;
-    -webkit-text-shadow: -1px 3px 2px #d4d2d0, 0 -1px 1px #fff;
-    text-shadow: -1px 3px 2px #d4d2d0, 0 -1px 1px #fff;
+    -webkit-text-shadow: -1px 3px 2px #babecc, 0 -1px 1px #fff;
+    text-shadow: -1px 3px 2px #babecc, 0 -1px 1px #fff;
   }
   40% {
     display: visible;
-    -webkit-text-shadow: -2px 4px 3px #d4d2d0, 0 -1px 1px #fff;
-    text-shadow: -2px 4px 3px #d4d2d0, 0 -1px 1px #fff;
+    -webkit-text-shadow: -2px 4px 3px #babecc, 0 -1px 1px #fff;
+    text-shadow: -2px 4px 3px #babecc, 0 -1px 1px #fff;
   }
   50% {
     display: visible;
-    -webkit-text-shadow: -2px 5px 4px #d4d2d0, 0 -1px 2px #fff;
-    text-shadow: -2px 5px 4px #d4d2d0, 0 -1px 2px #fff;
+    -webkit-text-shadow: -2px 5px 4px #babecc, 0 -1px 2px #fff;
+    text-shadow: -2px 5px 4px #babecc, 0 -1px 2px #fff;
   }
   60% {
     display: visible;
-    -webkit-text-shadow: -2px 6px 4px #d4d2d0, 0 -1px 2px #fff;
-    text-shadow: -2px 6px 4px #d4d2d0, 0 -1px 2px #fff;
+    -webkit-text-shadow: -2px 6px 4px #babecc, 0 -1px 2px #fff;
+    text-shadow: -2px 6px 4px #babecc, 0 -1px 2px #fff;
   }
   70% {
     display: visible;
-    -webkit-text-shadow: -2px 7px 5px #d4d2d0, 0 -1px 2px #fff;
-    text-shadow: -2px 7px 5px #d4d2d0, 0 -1px 2px #fff;
+    -webkit-text-shadow: -2px 7px 5px #babecc, 0 -1px 2px #fff;
+    text-shadow: -2px 7px 5px #babecc, 0 -1px 2px #fff;
   }
   80% {
     display: visible;
-    -webkit-text-shadow: -3px 8px 5px #d4d2d0, 1px -2px 3px #fff;
-    text-shadow: -3px 8px 5px #d4d2d0, 1px -2px 3px #fff;
+    -webkit-text-shadow: -3px 8px 5px #babecc, 1px -2px 3px #fff;
+    text-shadow: -3px 8px 5px #babecc, 1px -2px 3px #fff;
   }
   90% {
     display: visible;
-    -webkit-text-shadow: -3px 9px 6px #d4d2d0, 1px -2px 3px #fff;
-    text-shadow: -3px 9px 6px #d4d2d0, 1px -2px 3px #fff;
+    -webkit-text-shadow: -3px 9px 6px #babecc, 1px -2px 3px #fff;
+    text-shadow: -3px 9px 6px #babecc, 1px -2px 3px #fff;
   }
   100% {
     display: visible;
-    -webkit-text-shadow: -3px 10px 6px #d4d2d0, 1px -2px 3px #fff;
-    text-shadow: -3px 10px 6px #d4d2d0, 1px -2px 3px #fff;
+    -webkit-text-shadow: -3px 10px 6px #babecc, 1px -2px 3px #fff;
+    text-shadow: -3px 10px 6px #babecc, 1px -2px 3px #fff;
   }
 }
 
 @keyframes main-shadow {
   0% {
-    -webkit-box-shadow: 0 0 0 #d6d2cdb9, 0 0 0 rgba(255, 255, 255, 0.911);
-    box-shadow: 0 0 0 #d6d2cdb9, 0 0 0 rgba(255, 255, 255, 0.911);
+    -webkit-box-shadow: 0 0 0 #babecc, 0 0 0 rgba(255, 255, 255, 0.911);
+    box-shadow: 0 0 0 #babecc, 0 0 0 rgba(255, 255, 255, 0.911);
   }
   10% {
-    -webkit-box-shadow: 2px 2px 4px #d6d2cdb9,
+    -webkit-box-shadow: 2px 2px 4px #babecc,
       -1px -1px 1px rgba(255, 255, 255, 0.911);
-    box-shadow: 2px 2px 4px #d6d2cdb9, -1px -1px 1px rgba(255, 255, 255, 0.911);
+    box-shadow: 2px 2px 4px #babecc, -1px -1px 1px rgba(255, 255, 255, 0.911);
   }
   30% {
-    -webkit-box-shadow: 4px 4px 8px #d6d2cdb9,
+    -webkit-box-shadow: 4px 4px 8px #babecc,
       -2px -2px 2px rgba(255, 255, 255, 0.911);
-    box-shadow: 4px 4px 8px #d6d2cdb9, -2px -2px 2px rgba(255, 255, 255, 0.911);
+    box-shadow: 4px 4px 8px #babecc, -2px -2px 2px rgba(255, 255, 255, 0.911);
   }
   40% {
-    -webkit-box-shadow: 6px 6px 12px #d6d2cdb9,
+    -webkit-box-shadow: 6px 6px 12px #babecc,
       -3px -3px 3px rgba(255, 255, 255, 0.911);
-    box-shadow: 6px 6px 12px #d6d2cdb9, -3px -3px 3px rgba(255, 255, 255, 0.911);
+    box-shadow: 6px 6px 12px #babecc, -3px -3px 3px rgba(255, 255, 255, 0.911);
   }
   50% {
-    -webkit-box-shadow: 7px 7px 16px #d6d2cdb9,
+    -webkit-box-shadow: 7px 7px 16px #babecc,
       -5px -5px 5px rgba(255, 255, 255, 0.911);
-    box-shadow: 7px 7px 16px #d6d2cdb9, -5px -5px 5px rgba(255, 255, 255, 0.911);
+    box-shadow: 7px 7px 16px #babecc, -5px -5px 5px rgba(255, 255, 255, 0.911);
   }
   60% {
-    -webkit-box-shadow: 8px 8px 20px #d6d2cdb9,
+    -webkit-box-shadow: 8px 8px 20px #babecc,
       -6px -6px 6px rgba(255, 255, 255, 0.911);
-    box-shadow: 8px 8px 20px #d6d2cdb9, -6px -6px 6px rgba(255, 255, 255, 0.911);
+    box-shadow: 8px 8px 20px #babecc, -6px -6px 6px rgba(255, 255, 255, 0.911);
   }
   70% {
-    -webkit-box-shadow: 9px 9px 24px #d6d2cdb9,
+    -webkit-box-shadow: 9px 9px 24px #babecc,
       -7px -7px 7px rgba(255, 255, 255, 0.911);
-    box-shadow: 9px 9px 24px #d6d2cdb9, -7px -7px 7px rgba(255, 255, 255, 0.911);
+    box-shadow: 9px 9px 24px #babecc, -7px -7px 7px rgba(255, 255, 255, 0.911);
   }
   80% {
-    -webkit-box-shadow: 10px 10px 24px #d6d2cdb9,
+    -webkit-box-shadow: 10px 10px 24px #babecc,
       -8px -8px 8px rgba(255, 255, 255, 0.911);
-    box-shadow: 10px 10px 28px #d6d2cdb9,
-      -8px -8px 8px rgba(255, 255, 255, 0.911);
+    box-shadow: 10px 10px 28px #babecc, -8px -8px 8px rgba(255, 255, 255, 0.911);
   }
   90% {
-    -webkit-box-shadow: 11px 11px 30px #d6d2cdb9,
+    -webkit-box-shadow: 11px 11px 30px #babecc,
       -9px -9px 9px rgba(255, 255, 255, 0.911);
-    box-shadow: 11px 11px 30px #d6d2cdb9,
-      -9px -9px 9px rgba(255, 255, 255, 0.911);
+    box-shadow: 11px 11px 30px #babecc, -9px -9px 9px rgba(255, 255, 255, 0.911);
   }
   100% {
-    -webkit-box-shadow: 12px 12px 32px #d6d2cdb9,
+    -webkit-box-shadow: 12px 12px 32px #babecc,
       -10px -10px 10px rgba(255, 255, 255, 0.911);
-    box-shadow: 12px 12px 32px #d6d2cdb9,
+    box-shadow: 12px 12px 32px #babecc,
       -10px -10px 10px rgba(255, 255, 255, 0.911);
   }
 }
@@ -478,7 +478,7 @@ body {
     left: 0px;
     margin: 16px 0 0 0;
     font-size: 116px;
-    text-shadow: 6px 4px 6px #d4d2d0, -1px -2px 3px #fff;
+    text-shadow: 6px 4px 6px #babecc, -1px -2px 3px #fff;
     transform: rotate(0deg);
   }
 }
@@ -497,7 +497,7 @@ body {
     position: static;
     margin: 48px 0 0 48px;
     font-size: 90px;
-    text-shadow: 6px 4px 6px #d4d2d0, -1px -2px 3px #fff;
+    text-shadow: 6px 4px 6px #babecc, -1px -2px 3px #fff;
     transform: rotate(0deg);
   }
 
@@ -530,7 +530,7 @@ body {
   .heading {
     margin: 36px 0 0 36px;
     font-size: 72px;
-    text-shadow: 6px 4px 6px #d4d2d0, -1px -2px 3px #fff;
+    text-shadow: 6px 4px 6px #babecc, -1px -2px 3px #fff;
     transform: rotate(0deg);
   }
 
