@@ -290,3 +290,25 @@ body {
 .submit:active {
   box-shadow: inset 1px 1px 2px #cfcdca, inset -1px -1px 2px #fff;
 }
+
+@media screen and (max-width: 1220px) {
+  body {
+    height: 100vh;
+    justify-content: flex-end;
+    /* align-items: flex-start; */
+  }
+
+  .main {
+    width: 800px;
+  }
+
+  .form {
+    padding: 48px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  body {
+    align-items: flex-start;
+  }
+}
