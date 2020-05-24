@@ -195,8 +195,9 @@ body {
   height: 20px;
   margin: 0 5px;
   background-color: #ebecf0;
-  box-shadow: 2px 2px 2px #babecc, -3px -3px 6px rgba(255, 255, 255, 1),
-    inset 0 0 0 #babecc, inset 0 0 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2),
+    -3px -3px 6px rgba(255, 255, 255, 1), inset 0 0 0 rgba(0, 0, 0, 0.2),
+    inset 0 0 0 rgba(255, 255, 255, 0.2);
   appearance: none;
   -webkit-appearance: none;
   outline: none;
@@ -206,15 +207,17 @@ body {
 
 .radio__content:hover,
 .checkbox__content:hover {
-  box-shadow: 1px 1px 2px #babecc, -1px -1px 2px rgba(255, 255, 255, 1),
-    inset 0 0 0 #babecc, inset 0 0 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2),
+    -1px -1px 2px rgba(255, 255, 255, 1), inset 0 0 0 rgba(0, 0, 0, 0.2),
+    inset 0 0 0 rgba(255, 255, 255, 0.2);
 }
 
 .radio__content:checked,
 .checkbox__content:checked {
   background-color: #686de0;
-  box-shadow: 0 0 0 #babecc, 0 0 0 rgba(255, 255, 255, 0.2),
-    inset 3px 3px 6px #babecc, inset -3px -3px 6px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 rgba(255, 255, 255, 0.2),
+    inset 3px 3px 6px rgba(0, 0, 0, 0.2),
+    inset -3px -3px 6px rgba(255, 255, 255, 0.2);
 }
 
 /* radio */
