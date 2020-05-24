@@ -276,44 +276,25 @@ body {
 
 /* SUBMIT */
 
-.submit,
-.submit__input {
-  width: 100%;
-  min-height: 64px;
-  border-radius: 28px;
+.submit {
+  cursor: pointer;
   border: 0;
   outline: 0;
-  cursor: pointer;
+  padding: 8px;
+  margin-top: 32px;
+  border-radius: 28px;
+  font-size: 32px;
+  line-height: 56px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  color: #585eb8;
+  background-color: #ebecf0;
+  background: linear-gradient(155deg, #ebecf0, rgb(231, 233, 243));
+  box-shadow: -5px -5px 20px #fff, 5px 5px 16px #babecc;
   transition: all 0.2s ease-in-out;
   -webkit-animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation-delay: 1.8s;
-}
-
-.submit {
-  position: relative;
-  padding: 12px;
-  margin-top: 32px;
-  background-color: #ebecf0;
-  background: linear-gradient(155deg, #ebecf0, rgb(231, 233, 243));
-  box-shadow: -5px -5px 20px #fff, 5px 5px 16px #babecc;
-}
-
-.submit__input {
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: transparent;
-  background-color: #2b0fa8;
-  font-family: "Dosis", sans-serif;
-  font-size: 32px;
-  line-height: 64px;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.4);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
 }
 
 .submit:hover {
