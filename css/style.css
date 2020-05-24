@@ -25,6 +25,9 @@ body {
   box-shadow: 12px 12px 32px #d6d2cdb9,
     -10px -10px 10px rgba(255, 255, 255, 0.911);
   background-color: #f2f1f1;
+  -webkit-animation: fade-in 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation-delay: 0.5s;
 }
 
 /* HEADING */
@@ -50,6 +53,9 @@ body {
   justify-content: space-between;
   width: 100%;
   padding: 56px;
+  -webkit-animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation-delay: 0.8s;
 }
 
 .form__wrapper {
@@ -255,6 +261,9 @@ body {
   outline: 0;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  -webkit-animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation-delay: 1.4s;
 }
 
 .submit {
@@ -288,6 +297,31 @@ body {
 
 .submit:active {
   box-shadow: inset 1px 1px 2px #cfcdca, inset -1px -1px 2px #fff;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 1220px) {
