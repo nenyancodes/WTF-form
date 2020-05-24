@@ -560,7 +560,8 @@ body {
 
 @media screen and (max-width: 400px) {
   .main {
-    margin: 8px;
+    margin: 0px;
+    border-radius: 0;
   }
 
   .heading {
@@ -588,11 +589,6 @@ body {
 }
 
 @media screen and (max-width: 320px) {
-  .main {
-    margin: 0px;
-    border-radius: 0;
-  }
-
   .heading {
     margin: 16px 0 0 16px;
     font-size: 48px;
