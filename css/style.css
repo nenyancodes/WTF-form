@@ -61,7 +61,7 @@ body {
   animation-delay: 1s;
 }
 
-.form__wrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -69,10 +69,23 @@ body {
   width: 46%;
 }
 
+.inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.inner-wrapper--title {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
 /* FIELDSETS */
 
 .title__fieldset {
-  display: flex;
   width: 100%;
   padding: 0px;
   margin: 0px;
@@ -83,10 +96,6 @@ body {
 }
 
 .basic-info__fieldset {
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
-  flex-wrap: wrap;
   width: 100%;
   padding: 0px;
   margin: 0px;
@@ -98,10 +107,6 @@ body {
 
 .address__fieldset {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
   width: 100%;
   padding: 12px 18px 32px 18px;
   margin-top: 42px;
@@ -117,12 +122,14 @@ body {
 
 .input {
   flex-basis: 48%;
+  width: 48%;
   margin-bottom: 0;
 }
 
 .input--full,
 .textarea {
   flex-basis: 100%;
+  width: 100%;
 }
 
 .input__content,

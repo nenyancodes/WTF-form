@@ -19,120 +19,127 @@
     <main class="main">
       <h1 class="heading">formularz</h1>
       <form class="form" method="POST">
-        <div class="form__wrapper">
+        <div class="wrapper">
           <fieldset class="title__fieldset">
             <legend class="title__legend">Tytuł</legend>
-            <p class="radio">
-              <label class="radio__label"
-                ><input
-                  name="title"
-                  value="mrs"
-                  type="radio"
-                  class="radio__content"
-                  checked
-                />
-                Pani</label
-              >
-            </p>
-            <p class="radio">
-              <label class="radio__label"
-                ><input
-                  name="title"
-                  value="mr"
-                  type="radio"
-                  class="radio__content"
-                />Pan</label
-              >
-            </p>
+            <div class="inner-wrapper inner-wrapper--title">
+              <!-- in Chrome fieldset is not a flex container - additional div helps to avioid this issue -->
+              <p class="radio">
+                <label class="radio__label"
+                  ><input
+                    name="title"
+                    value="mrs"
+                    type="radio"
+                    class="radio__content"
+                    checked
+                  />
+                  Pani</label
+                >
+              </p>
+              <p class="radio">
+                <label class="radio__label"
+                  ><input
+                    name="title"
+                    value="mr"
+                    type="radio"
+                    class="radio__content"
+                  />Pan</label
+                >
+              </p>
+            </div>
           </fieldset>
           <fieldset class="basic-info__fieldset">
             <legend class="basic-info__legend">Podstawowe dane</legend>
-            <p class="input">
-              <label for="first-name" class="input__label"
-                >Imię
-                <input
-                  id="first-name"
-                  name="name"
-                  type="text"
-                  class="input__content"
-                />
-              </label>
-            </p>
-            <p class="input">
-              <label for="surname" class="input__label"
-                >Nazwisko
-                <input
-                  id="surname"
-                  name="surname"
-                  type="text"
-                  class="input__content"
-                />
-              </label>
-            </p>
-            <p class="input input--full">
-              <label for="email" class="input__label"
-                >Adres e-mail
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  class="input__content"
-                />
-              </label>
-            </p>
-            <p class="input input--full">
-              <label for="phone-number" class="input__label"
-                >Numer telefonu
-                <input
-                  id="phone-number"
-                  name="phone"
-                  type="tel"
-                  class="input__content"
-                />
-              </label>
-            </p>
+            <div class="inner-wrapper">
+              <p class="input">
+                <label for="first-name" class="input__label"
+                  >Imię
+                  <input
+                    id="first-name"
+                    name="name"
+                    type="text"
+                    class="input__content"
+                  />
+                </label>
+              </p>
+              <p class="input">
+                <label for="surname" class="input__label"
+                  >Nazwisko
+                  <input
+                    id="surname"
+                    name="surname"
+                    type="text"
+                    class="input__content"
+                  />
+                </label>
+              </p>
+              <p class="input input--full">
+                <label for="email" class="input__label"
+                  >Adres e-mail
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    class="input__content"
+                  />
+                </label>
+              </p>
+              <p class="input input--full">
+                <label for="phone-number" class="input__label"
+                  >Numer telefonu
+                  <input
+                    id="phone-number"
+                    name="phone"
+                    type="tel"
+                    class="input__content"
+                  />
+                </label>
+              </p>
+            </div>
           </fieldset>
           <fieldset class="address__fieldset">
             <legend class="address__legend">
               Adres
             </legend>
-            <p class="input input--full">
-              <label for="address" class="input__label"
-                >Adres zamieszkania
-                <input
-                  id="address"
-                  name="address"
-                  type="text"
-                  class="input__content"
-                />
-              </label>
-            </p>
-            <p class="input">
-              <label for="city" class="input__label"
-                >Miejscowość
-                <input
-                  id="city"
-                  name="city"
-                  type="text"
-                  class="input__content"
-                />
-              </label>
-            </p>
-            <p class="input">
-              <label for="postal-code" class="input__label"
-                >Kod pocztowy
-                <input
-                  id="postal-code"
-                  name="postal-code"
-                  type="text"
-                  class="input__content"
-                />
-              </label>
-            </p>
+            <div class="inner-wrapper">
+              <p class="input input--full">
+                <label for="address" class="input__label"
+                  >Adres zamieszkania
+                  <input
+                    id="address"
+                    name="address"
+                    type="text"
+                    class="input__content"
+                  />
+                </label>
+              </p>
+              <p class="input">
+                <label for="city" class="input__label"
+                  >Miejscowość
+                  <input
+                    id="city"
+                    name="city"
+                    type="text"
+                    class="input__content"
+                  />
+                </label>
+              </p>
+              <p class="input">
+                <label for="postal-code" class="input__label"
+                  >Kod pocztowy
+                  <input
+                    id="postal-code"
+                    name="postal-code"
+                    type="text"
+                    class="input__content"
+                  />
+                </label>
+              </p>
+            </div>
           </fieldset>
         </div>
 
-        <div class="form__wrapper">
+        <div class="wrapper">
           <p class="textarea">
             <label for="message" class="textarea__label"
               >Treść wiadomości
