@@ -382,6 +382,64 @@ body {
   }
 }
 
+@keyframes heading-shadow-vert {
+  0% {
+    display: none;
+    -webkit-text-shadow: 0 0 0 #babecc, 0 0 0 #fff;
+    text-shadow: 0 0 0 #babecc, 0 0 0 #fff;
+  }
+  10% {
+    display: visible;
+    -webkit-text-shadow: 1px 0.5px 1px #babecc, 0 -0.5px 1px #fff;
+    text-shadow: 1px 0.5px 1px #babecc, 0 -0.5px 1px #fff;
+  }
+  20% {
+    display: visible;
+    -webkit-text-shadow: 2px 1px 2px #babecc, 0 -0.5px 1px #fff;
+    text-shadow: 2px 1px 2px #babecc, 0 -0.5px 1px #fff;
+  }
+  30% {
+    display: visible;
+    -webkit-text-shadow: 2.5px 1.5px 2.5px #babecc, -0.3px -1px 1.5px #fff;
+    text-shadow: 2.5px 1.5px 2.5px #babecc, -0.3px -1px 1.5px #fff;
+  }
+  40% {
+    display: visible;
+    -webkit-text-shadow: 3px 2px 3px #babecc, -0.3px -1px 1.5px #fff;
+    text-shadow: 3px 2px 3px #babecc, -0.3px -1px 1.5px #fff;
+  }
+  50% {
+    display: visible;
+    -webkit-text-shadow: 3.5px 2.3px 3.5px #babecc, -0.3px -1px 2px #fff;
+    text-shadow: 3.5px 2.3px 3.5px #babecc, -0.3px -1px 2px #fff;
+  }
+  60% {
+    display: visible;
+    -webkit-text-shadow: 4px 2.6px 4px #babecc, -0.6px -1.5px 2px #fff;
+    text-shadow: 4px 2.6px 4px #babecc, -0.6px -1.5px 2px #fff;
+  }
+  70% {
+    display: visible;
+    -webkit-text-shadow: 4.5px 3px 4.5px #babecc, -0.6px -1.5px 2.5px #fff;
+    text-shadow: 4.5px 3px 4.5px #babecc, -0.6px -1.5px 2.5px #fff;
+  }
+  80% {
+    display: visible;
+    -webkit-text-shadow: 5px 3.3px 5px #babecc, -0.6px -1.5px 2.5px #fff;
+    text-shadow: 5px 3.3px 5px #babecc, -0.6px -1.5px 2.5px #fff;
+  }
+  90% {
+    display: visible;
+    -webkit-text-shadow: 5.5px 3.6px 5.5px #babecc, -1px -2px 3px #fff;
+    text-shadow: 5.5px 3.6px 5.5px #babecc, -1px -2px 3px #fff;
+  }
+  100% {
+    display: visible;
+    -webkit-text-shadow: 6px 4px 6px #babecc, -1px -2px 3px #fff;
+    text-shadow: 6px 4px 6px #babecc, -1px -2px 3px #fff;
+  }
+}
+
 @keyframes main-shadow {
   0% {
     -webkit-box-shadow: 0 0 0 #babecc, 0 0 0 rgba(255, 255, 255, 0.911);
@@ -478,6 +536,8 @@ body {
     font-size: 116px;
     text-shadow: 6px 4px 6px #babecc, -1px -2px 3px #fff;
     transform: rotate(0deg);
+    -webkit-animation: heading-shadow-vert 1.6s;
+    animation: heading-shadow-vert 1.6s;
   }
 }
 
