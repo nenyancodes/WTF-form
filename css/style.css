@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-/* :root {
+:root {
   --main-color: #ebecf0;
   --gradient: rgb(231, 233, 243);
   --text-color: rgb(90, 97, 119);
@@ -20,7 +20,7 @@ html {
   --pop-color: #686de0;
   --submit-color: #585eb8;
   --text-shadow: 0 0 0 transparent;
-} */
+}
 
 /* :root {
   --main-color: #303234;
@@ -34,20 +34,6 @@ html {
   --pop-color: #db9ab394;
   --submit-color: #db9ab394;
 } */
-
-:root {
-  --main-color: #0b1a20;
-  --gradient: #09151a;
-  --text-color: #205b62;
-  --shadow-bright: #15242b;
-  --shadow-dark: rgba(0, 0, 0, 0.3);
-  --main-shadow-bright: #15242b;
-  --radio-shadow-dark: #021211;
-  --radio-shadow-bright: #15242b;
-  --pop-color: #06faee;
-  --submit-color: #06faeecc;
-  --text-shadow: 0 0 10px #06faeecc;
-}
 
 body {
   height: 100vh;
