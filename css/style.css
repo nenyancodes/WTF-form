@@ -8,6 +8,18 @@ html {
   box-sizing: inherit;
 }
 
+:root {
+  --main-color: #ebecf0;
+  --gradient: linear-gradient(155deg, #ebecf0, rgb(231, 233, 243));
+  --label-color: rgb(90, 97, 119);
+  --shadow-bright: #fff;
+  --shadow-dark: #babecc;
+  --radio-shadow-dark: rgba(0, 0, 0, 0.2);
+  --radio-shadow-bright: rgba(255, 255, 255, 0.2);
+  --pop-color: #686de0;
+  --submit-color: #585eb8;
+}
+
 body {
   height: 100vh;
   display: flex;
