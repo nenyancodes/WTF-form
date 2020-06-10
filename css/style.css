@@ -19,9 +19,10 @@ html {
   --radio-shadow-bright: rgba(255, 255, 255, 0.2);
   --pop-color: #686de0;
   --submit-color: #585eb8;
+  --text-shadow: 0 0 0 transparent;
 } */
 
-:root {
+/* :root {
   --main-color: #303234;
   --gradient: #303234;
   --text-color: #858585;
@@ -32,6 +33,20 @@ html {
   --radio-shadow-bright: #302f2f77;
   --pop-color: #db9ab394;
   --submit-color: #db9ab394;
+} */
+
+:root {
+  --main-color: #0b1a20;
+  --gradient: #09151a;
+  --text-color: #205b62;
+  --shadow-bright: #15242b;
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --main-shadow-bright: #15242b;
+  --radio-shadow-dark: #021211;
+  --radio-shadow-bright: #15242b;
+  --pop-color: #06faee;
+  --submit-color: #06faeecc;
+  --text-shadow: 0 0 10px #06faeecc;
 }
 
 body {
@@ -327,6 +342,7 @@ body {
   font-weight: 900;
   letter-spacing: 0.08em;
   color: var(--submit-color);
+  text-shadow: var(--text-shadow);
   background-color: var(--main-color);
   background: linear-gradient(155deg, var(--main-color), var(--gradient));
   box-shadow: -5px -5px 20px var(--shadow-bright),
