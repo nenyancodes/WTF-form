@@ -20,6 +20,7 @@ html {
   --pop-color: #686de0;
   --submit-color: #585eb8;
   --text-shadow: 0 0 0 transparent;
+  --transition: box-shadow 0.2s ease-in-out;
 }
 
 /* :root {
@@ -75,6 +76,7 @@ body {
   transform: rotate(-90deg);
   -webkit-animation: heading-shadow 1.6s;
   animation: heading-shadow 1.6s;
+  transition: var(--transition);
 }
 
 /* FORM & CONTAINERS */
@@ -177,7 +179,7 @@ body {
   font-size: 15px;
   color: var(--text-color);
   background-color: var(--main-color);
-  transition: all 0.2s ease-in-out;
+  transition: var(--transition);
 }
 
 .input__content:focus,
@@ -242,7 +244,7 @@ body {
   -webkit-appearance: none;
   outline: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: var(--transition);
 }
 
 .radio__content:hover,
@@ -333,7 +335,7 @@ body {
   background: linear-gradient(155deg, var(--main-color), var(--gradient));
   box-shadow: -5px -5px 20px var(--shadow-bright),
     5px 5px 16px var(--shadow-dark);
-  transition: all 0.2s ease-in-out;
+  transition: var(--transition);
   -webkit-animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation-delay: 1.8s;

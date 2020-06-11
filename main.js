@@ -55,16 +55,34 @@ const turnOnDarkMode = () => {
   );
 };
 
+const disableTransition = () => {
+  document.documentElement.style.setProperty(
+    "--transition",
+    "box-shadow 0s ease-in-out"
+  );
+};
+
+const enableTransition = () => {
+  document.documentElement.style.setProperty(
+    "--transition",
+    "box-shadow 0.2s ease-in-out"
+  );
+};
+
 const modeBtn = document.querySelector(".mode-button--js");
 
 let isDark = false;
 const changeMode = () => {
   if (isDark) {
-    turnOnBrightMode();
+    setTimeout(disableTransition, 0);
+    setTimeout(turnOnBrightMode, 100);
+    setTimeout(enableTransition, 500);
     modeBtn.classList.remove("mode-button--checked");
     isDark = false;
   } else {
-    turnOnDarkMode();
+    setTimeout(disableTransition, 0);
+    setTimeout(turnOnDarkMode, 100);
+    setTimeout(enableTransition, 500);
     modeBtn.classList.add("mode-button--checked");
     isDark = true;
   }
