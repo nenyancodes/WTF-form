@@ -359,11 +359,12 @@ body {
   border-radius: 50%;
   border: none;
   outline: none;
+  appearance: none;
+  -webkit-appearance: none;
   background-color: var(--main-color);
   cursor: pointer;
   box-shadow: -5px -5px 20px var(--shadow-bright),
     5px 5px 16px var(--shadow-dark);
-  transition: all 0.2s ease-in-out;
 }
 
 .mode-button:hover {
@@ -377,6 +378,12 @@ body {
 
 .mode-button__icon {
   color: var(--pop-color);
+  text-shadow: var(--text-shadow);
+}
+
+.mode-button--checked {
+  box-shadow: inset 2px 2px 3px var(--shadow-dark),
+    inset -2px -2px 3px var(--shadow-bright);
 }
 
 /* ANIMATIONS */

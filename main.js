@@ -1,7 +1,5 @@
 console.log(`hello`);
 
-const modeBtn = document.querySelector(".mode-button--js");
-
 const turnOnBrightMode = () => {
   document.documentElement.style.setProperty("--main-color", "#ebecf0");
   document.documentElement.style.setProperty(
@@ -57,13 +55,17 @@ const turnOnDarkMode = () => {
   );
 };
 
+const modeBtn = document.querySelector(".mode-button--js");
+
 let isDark = false;
 const changeMode = () => {
   if (isDark) {
     turnOnBrightMode();
+    modeBtn.classList.remove("mode-button--checked");
     isDark = false;
   } else {
     turnOnDarkMode();
+    modeBtn.classList.add("mode-button--checked");
     isDark = true;
   }
 };
