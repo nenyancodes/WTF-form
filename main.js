@@ -58,10 +58,7 @@ const turnOnBrightMode = () => {
 const turnOnDarkMode = () => {
   document.documentElement.style.setProperty("--main-color", "#243441");
   document.documentElement.style.setProperty("--gradient", "#1f2e38");
-  document.documentElement.style.setProperty(
-    "--text-color",
-    "rgb(90, 97, 119)"
-  );
+  document.documentElement.style.setProperty("--text-color", "#4d899b");
   document.documentElement.style.setProperty("--shadow-bright", "#34424e");
   document.documentElement.style.setProperty("--shadow-dark", "#17242d");
   document.documentElement.style.setProperty("--main-shadow-bright", "#34424e");
@@ -73,11 +70,11 @@ const turnOnDarkMode = () => {
     "--radio-shadow-bright",
     "#374552"
   );
-  document.documentElement.style.setProperty("--pop-color", "#686de0");
-  document.documentElement.style.setProperty("--submit-color", "#686de0");
+  document.documentElement.style.setProperty("--pop-color", "#5fbbbb");
+  document.documentElement.style.setProperty("--submit-color", "#64cccc");
   document.documentElement.style.setProperty(
     "--text-shadow",
-    "0 0 5px #585eb8"
+    "0 0 5px #64cccc"
   );
 };
 
