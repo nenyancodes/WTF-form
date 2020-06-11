@@ -354,8 +354,8 @@ body {
   position: absolute;
   right: -100px;
   top: 0;
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
   border: none;
   outline: none;
@@ -382,8 +382,13 @@ body {
 }
 
 .mode-button--checked {
-  box-shadow: inset 2px 2px 3px var(--shadow-dark),
-    inset -2px -2px 3px var(--shadow-bright);
+  box-shadow: inset 3px 3px 3px var(--shadow-dark),
+    inset -3px -3px 3px var(--shadow-bright);
+}
+
+.mode-button--checked:hover {
+  box-shadow: inset 1px 1px 2px var(--shadow-dark),
+    inset -1px -1px 2px var(--shadow-bright);
 }
 
 /* ANIMATIONS */
