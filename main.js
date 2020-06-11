@@ -32,26 +32,52 @@ const turnOnBrightMode = () => {
   );
 };
 
+// const turnOnDarkMode = () => {
+//     document.documentElement.style.setProperty("--main-color", "#09151a");
+//     document.documentElement.style.setProperty("--gradient", "#09151a");
+//     document.documentElement.style.setProperty("--text-color", "#205b62");
+//     document.documentElement.style.setProperty("--shadow-bright", "#15242b");
+//     document.documentElement.style.setProperty(
+//       "--shadow-dark",
+//       "rgba(0, 0, 0, 0.3)"
+//     );
+//     document.documentElement.style.setProperty("--main-shadow-bright", "#15242b");
+//     document.documentElement.style.setProperty("--radio-shadow-dark", "#021211");
+//     document.documentElement.style.setProperty(
+//       "--radio-shadow-bright",
+//       "#15242b"
+//     );
+//     document.documentElement.style.setProperty("--pop-color", "#06faee");
+//     document.documentElement.style.setProperty("--submit-color", "#06faeecc");
+//     document.documentElement.style.setProperty(
+//       "--text-shadow",
+//       "0 0 10px #06faeecc"
+//     );
+//   };
+
 const turnOnDarkMode = () => {
-  document.documentElement.style.setProperty("--main-color", "#09151a");
-  document.documentElement.style.setProperty("--gradient", "#09151a");
-  document.documentElement.style.setProperty("--text-color", "#205b62");
-  document.documentElement.style.setProperty("--shadow-bright", "#15242b");
+  document.documentElement.style.setProperty("--main-color", "#243441");
+  document.documentElement.style.setProperty("--gradient", "#1f2e38");
   document.documentElement.style.setProperty(
-    "--shadow-dark",
-    "rgba(0, 0, 0, 0.3)"
+    "--text-color",
+    "rgb(90, 97, 119)"
   );
-  document.documentElement.style.setProperty("--main-shadow-bright", "#15242b");
-  document.documentElement.style.setProperty("--radio-shadow-dark", "#021211");
+  document.documentElement.style.setProperty("--shadow-bright", "#34424e");
+  document.documentElement.style.setProperty("--shadow-dark", "#17242d");
+  document.documentElement.style.setProperty("--main-shadow-bright", "#34424e");
+  document.documentElement.style.setProperty(
+    "--radio-shadow-dark",
+    "rgba(0, 0, 0, 0.2)"
+  );
   document.documentElement.style.setProperty(
     "--radio-shadow-bright",
-    "#15242b"
+    "#374552"
   );
-  document.documentElement.style.setProperty("--pop-color", "#06faee");
-  document.documentElement.style.setProperty("--submit-color", "#06faeecc");
+  document.documentElement.style.setProperty("--pop-color", "#686de0");
+  document.documentElement.style.setProperty("--submit-color", "#686de0");
   document.documentElement.style.setProperty(
     "--text-shadow",
-    "0 0 10px #06faeecc"
+    "0 0 5px #585eb8"
   );
 };
 
