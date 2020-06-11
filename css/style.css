@@ -382,6 +382,7 @@ body {
   cursor: pointer;
   box-shadow: -5px -5px 20px var(--shadow-bright),
     5px 5px 16px var(--shadow-dark);
+  transition: var(--transition);
 }
 
 .mode-button:hover {
