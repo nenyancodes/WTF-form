@@ -10,11 +10,11 @@ Simple form created for "WTF: co ten frontend" training program - with my own ne
 ## Live view
 Link: https://nenyancodes.github.io/WTF-form/
 
-## Poject status
+## Project status
 <img src="img/under-construction.svg.jpg" alt="under construction" width="200">
 
 ## TODO
-* [ ] add REGEX paterns to inputs
+* [ ] add REGEX patterns to inputs
 * [ ] add animation to modes toggle
 * [ ] change font family of labels
 
