@@ -1,4 +1,4 @@
-<img src="img/light-mode.jpg" alt="neumophic light mode" width="450"> <img src="img/dark-mode.jpg" alt="neumophic dark mode" width="450">
+<img src="img/light-mode.jpg" alt="neumophic light mode" width="420"> <img src="img/dark-mode.jpg" alt="neumophic dark mode" width="420">
 
 
 # Neumorphic form
@@ -23,9 +23,6 @@ Created by Anna Wójtowicz alias __@nenyancodes__ - feel free to contact me here
 <br> You can also find me on [Twitter](https://twitter.com/nenyancodes).
 
 <br>
-
----
-
 <br>
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
