@@ -21,7 +21,7 @@ Link: https://nenyancodes.github.io/WTF-form/
 <br>
 
 ## Project status
-<img src="img/under-construction.svg.jpg" alt="under construction" width="200">
+<img src="img/under-construction.svg" alt="under construction" width="200">
 
 ## TODO
 * [ ] add REGEX patterns to inputs
