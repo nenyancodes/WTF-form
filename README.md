@@ -1,4 +1,4 @@
-<img src="img/light-mode.jpg" alt="neumophic light mode" width="400"> <img src="img/dark-mode.jpg" alt="neumophic dark mode" width="400">
+<img src="img/light-mode.jpg" alt="neumophic light mode" width="450"> <img src="img/dark-mode.jpg" alt="neumophic dark mode" width="450">
 
 
 # Neumorphic form
@@ -28,8 +28,4 @@ Created by Anna Wójtowicz alias __@nenyancodes__ - feel free to contact me here
 
 <br>
 
-Overally <br>
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
-
-Except for the configuration of Webpack which was <br>
-[![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://forthebadge.com)
