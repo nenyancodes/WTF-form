@@ -58,7 +58,7 @@
                     id="first-name"
                     name="name"
                     type="text"
-                    pattern="^\s*[A-Za-zĄąĆćĘęŁłŃńÓóŚśŹźŻż]+\s*$"
+                    pattern="/^[A-Za-z\x{00C0}-\x{024F}][A-Za-z\x{00C0}-\x{024F}\'\-]+([\ A-Za-z\x{00C0}-\x{024F}][A-Za-z\x{00C0}-\x{024F}\'\-]+)*/"
                     class="input__content"
                   />
                 </label>
@@ -70,7 +70,7 @@
                     id="surname"
                     name="surname"
                     type="text"
-                    pattern="^\s*[A-Za-zĄąĆćĘęŁłŃńÓóŚśŹźŻż]+\s*$"
+                    pattern="/^[A-Za-z\x{00C0}-\x{024F}][A-Za-z\x{00C0}-\x{024F}\'\-]+([\ A-Za-z\x{00C0}-\x{024F}][A-Za-z\x{00C0}-\x{024F}\'\-]+)*/"
                     class="input__content"
                   />
                 </label>
