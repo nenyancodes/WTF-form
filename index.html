@@ -82,6 +82,7 @@
                     id="email"
                     name="email"
                     type="email"
+                    pattern="^[\w-\.\+]+@([\w-]+\.)+[\w-]{2,}$"
                     class="input__content"
                   />
                 </label>
@@ -93,6 +94,7 @@
                     id="phone-number"
                     name="phone"
                     type="tel"
+                    pattern="^(\+?[0-9]+([\s\-\.][0-9]+)*){6,}$"
                     class="input__content"
                   />
                 </label>
@@ -100,9 +102,7 @@
             </div>
           </fieldset>
           <fieldset class="address__fieldset">
-            <legend class="address__legend">
-              Adres
-            </legend>
+            <legend class="address__legend">Adres</legend>
             <div class="inner-wrapper">
               <p class="input input--full">
                 <label for="address" class="input__label"
